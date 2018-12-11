@@ -29,17 +29,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="#top">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Features</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Testimonials</a>
+              <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
-            <li>
-            <a class="nav-link" href="contact.html">Contact</a>
-             
+            <a class="nav-link" href="#contact">Contact</a>
+        </ul>     
               </div>
             </li>
           </ul>
@@ -50,9 +49,9 @@
     <header>
          <!-- explainer video -->
         <section class="watch" id="watch">      
-            <div class="formatvideo"> 
-            <div class="embed-responsive embed-responsive-16by9">
-<iframe width="480" height="270" src="https://www.youtube.com/embed/eXKs4CpsAR4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="sizer"> 
+            <div class="embed-responsive embed-responsive-4by3">
+<iframe class= width="480" height="270" src="https://www.youtube.com/embed/eXKs4CpsAR4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
         </div>
@@ -61,11 +60,13 @@
     </header>
 
     <!-- Div Content -->
-    <div class="container">
+    <div class="container" id="top">
 
-      <h1 class="my-3">Cold Drink</h1>
+      <h1 class="my-3">Cold Drink<h2> I’ll start with a drink! </h2>
       
       <div class="format">
+      
+     </div>
 
     <!-- end icon-->
         
@@ -74,31 +75,17 @@
                     <img src="cold_drink_icon.png" alt="icon" align="middle">
             <p class="lead"> The Cold Drink App gives a chance to match up users with drinks around their location based on customizable flavors of drinks that they like. The app gives the users a change to upload photos, taste profiles, and a out-of-five star rating. The app features drinks such as drinks, including cocktails, beers, and wines from bars and restaurants.</p>
         </section>
-        <!-- end introductory text-->
-        
-        <hr>
-        
-        <!-- long product description-->
-        <section class ="product description">
-        <p><br>The API Superstore provides a catalog of third-party APIs that you can use to enhance your business. From ecommerce to maps, API Superstore lists all the that customers expect and saves you the headache of sorting it all out yourself! The longer you wait the longer you’re not making more money and happier users!</p>
-        </section>
-        <!-- end long product description-->
-
-        <hr>
-
-
 
         <hr>
 
         <!-- feature list -->
-        <section class="features" id="features">
-        <h2>What Makes us Special</h2>
+        <section class="features">
+        <h2>Features</h2>
         <ul>
-            <li><p>Trusted by industry experts for years.</p></li>
-            <li><p>Specialized API knowhow combined with excellent customer service.</p></li>
-            <li><p>Money-back guarantee.</p></li>
-            <li><p>24-hour a day customer support!</p></li>
-            <li><p>Our prices can’t be beat.</p></li>
+            <li><p>Fun swiping feature</p></li>
+            <li><p>Easy way to call a lyft so you can drink responsibility</p></li>
+            <li><p>Simple sharing of your favorite bars and drink with your contacts</p></li>
+            <li><p>Alcohol beverage focused experience</p></li>
         </ul>
         </section>        
         <!-- end feature list -->
@@ -108,11 +95,11 @@
         <section class="testimonials" id="testimonials">
             <h2>Testimonials</h2>
                         
-    <div class="row">
+    <div class="grid">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
           <div class="card-body">
-            <p class="card-text"><blockquote class="blockquote">“API Superstore knows what it’s about. They know APIs, they know the documentation, and they we ready to work with my team to get the job done and get it done right the first time.”<footer class="blockquote-footer">Clive Developer<footer></p></blockquote>
+            <p class="card-text"><blockquote class="blockquote">“The best app to find drinks that I love!”<footer class="initialism">-David Stern<footer></p></blockquote>
           </div>
         </div>
       </div>
@@ -120,7 +107,7 @@
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
           <div class="card-body">
-            <p class="card-text"><blockquote class="blockquote">“API Superstore knows what it’s about. They know APIs, they know the documentation, and they we ready to work with my team to get the“We were flooded with options on the JavaScript API market. Our within house team identified 10 APIs all with their own licensing criteria that seemed like a good match for our project. API Superstore got use the rest of the way. The project is done, the developers are happy, and management thinks we’re geniuses!” <footer class="blockquote-footer">Peter Troubleshooter<footer></p></blockquote>
+            <p class="card-text"><blockquote class="blockquote">“Such an easy and fun way to find new places to drink!” <footer class="initialism">-Jenny Nguyen</footer></p></blockquote>
           </div>
         </div>
       </div>
@@ -128,7 +115,7 @@
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
           <div class="card-body">
-            <p class="card-text"><blockquote class="blockquote">“Software development is hard; these people make it easier and will hold your hand while your people work out the nuances of whatever API they’re using”<footer class="blockquote-footer">Jessica Manager<footer></blockquote></p>
+            <p class="card-text"><blockquote class="blockquote">“Finally an app that can make up my mind of where to go for me!”<footer class="initialism">-Peter Chan</footer></blockquote></p>
           </div>
         </div>
       </div>
@@ -143,8 +130,8 @@
                 <h2>Contact Us</h2>
 
           
-    <!--<div class="row">-->
-<div class ="contact-area">
+
+<div class ="contact-area" id="contact">
     <div class="col-lg-4 mb-4">
           <p>
             Seattle, WA, USA
@@ -162,109 +149,49 @@
           </div>
           </div>
           
-        <!-- end company contact area -->
 
         <hr>
+        
+                <!-- footer -->
+        
+        <div class="content-main" id="footer"></div>
 
-        <!--social media link-->
-        <div class="social-pad" id="social links">
-        <ul class="social-links">
-            <li><a href="http://twitter.com"><i class="fab fa-twitter-square mytwitter"></i></a></li>
-            <li><a href="http://facebook.com"><i class="fab fa-facebook-f myfacebook" ></i></a></li>
-            <li><a href="http://instagram.com"><i class="fab fa-instagram myinstagram" ></i></a></li>        
-        </ul>
+<footer id="fh5co-footer" class="fh5co-bg" role="contentinfo">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-4 fh5co-widget">
+					<h3>Cold Drink ~</h3>
+
+					<p><a class="btn btn-primary" href="https://www.apple.com/itunes/">Download from itunes</a></p>
+				</div>
+				<div class="col-md-8">
+					<h3>Classes</h3>
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<ul class="fh5co-footer-links">
+							<li><a href="https://twitter.com/">Twitter</a></li>
+							<li><a href="https://www.instagram.com/?hl=en">Instagram</a></li>
+							<li><a href="https://www.facebook.com/">Facebook</a></li>
+						</ul>
+					</div>
+				</div>	
+            </div>
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2018 | All Rights Reserved.</small> 
+						
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+
+
         </div>
-        <!--end social media links-->
 
-        </div>
-
-<!-- Footer -->
-<footer class="page-footer font-small blue pt-4">
-
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
-
-      <!-- Grid row -->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-
-          <!-- Content -->
-          <h5 class="text-uppercase">Footer Content</h5>
-          <p>Here you can use rows and columns here to organize your footer content.</p>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-3">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-
-            <!-- Links -->
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-
-          </div>
-          <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
-
-    </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   </body>
 
